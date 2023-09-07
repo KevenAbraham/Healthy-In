@@ -12,7 +12,7 @@ function Conheca() {
 
             <div className="conhecaContainer">
                 <div className="content">
-                    <p className="conhecaText">O Projeto Healthy-In visa conscientizar a comunidade a plantar e praticar o hábito alimentar de forma mais saudável, à fim de prolongar a vida.</p>
+                    <p>O Projeto Healthy-In visa conscientizar a comunidade a plantar e praticar o hábito alimentar de forma mais saudável, à fim de prolongar a vida.</p>
                     <div className="check">
                         <img src={check} /> 
                         <label>Aprenda a plantar temperos</label>
@@ -30,7 +30,7 @@ function Conheca() {
                         <label>Tenha uma vida saudável</label>
                     </div>
                 </div>
-                
+
                 <div className="images">
                     <div className="sideBySide">
                         <img src={meditating} />

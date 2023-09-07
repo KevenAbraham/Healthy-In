@@ -1,0 +1,11 @@
+.conheca {
+    height: 810px;
+    background: url('../../img/fundo-conheca.svg');
+    background-size: cover;
+}
+
+.conhecaTitle {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 32px;
+}

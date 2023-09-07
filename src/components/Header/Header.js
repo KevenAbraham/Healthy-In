@@ -2,12 +2,10 @@ import React from "react";
 import Logo from '../../img/Header.svg';
 import './Header.css';
 
-function Header() {
+export default ({white}) => {
     return (
-        <div className="header">
+        <header className={white ? 'white' : ''}>
             <img src={Logo} className="img" alt="" />
-        </div>
+        </header>
     );
 }
-
-export default Header;

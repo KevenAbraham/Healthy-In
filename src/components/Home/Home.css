@@ -1,0 +1,50 @@
+.home {
+    width: 100%;
+    height: 610px;
+    /* background: url('../../img/home-background.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.bgHome {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+.text {
+    padding: 140px 0 0 70px;
+    width: 490px;
+}
+
+.text .title {
+    font-size: 70px;
+    color: #DC2F39;
+    line-height: 0.8;
+}
+
+.text .title span {
+    margin-left: 70px;
+    color: #0A6835;
+}
+
+.text .subtitle {
+    margin-top: 32px;
+}
+
+.text button {
+    margin-top: 32px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #BEEBC2, #DEF4E0);
+    box-shadow: -2px 3px 6px rgba(0,0,0,0.25);
+    transition: all ease .25s;
+}
+
+.text button:hover {
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.25);
+
+}

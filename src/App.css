@@ -1,6 +1,38 @@
+/* fonte POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+/* fonte OPEN SANS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+/* fonte AMITA */
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+
+/* fonte RUBIK */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+@font-face {
+  font-family: Poppins;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
+@font-face {
+  font-family: Open-sans;
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+}
+
+@font-face {
+  font-family: Amita;
+  src: url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-

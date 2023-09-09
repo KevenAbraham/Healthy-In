@@ -1,0 +1,14 @@
+.aboveFooter {
+    height: 290px;
+    width: 100%;
+    background: url(../../img/junteSeBackground.svg);
+    background-size: cover;
+    background-color: #DDF7E3;
+    text-align: center;
+}
+
+.aboveFooter h3 {
+    width: 500px;
+    margin: auto;
+}
+

@@ -1,5 +1,5 @@
 .conheca {
-    height: 810px;
+    height: 950px;
     background: url('../../img/fundo-conheca.svg');
     background-size: cover;
 }
@@ -7,14 +7,14 @@
 .conhecaTitle {
     padding-top: 30px;
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
     font-family: 'Amita', sans-serif;
 }
 
 .conhecaContainer {
     margin-top: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -24,10 +24,11 @@
 }
 
 .content p {
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
     margin-bottom: 50px;
     font-family: 'Poppins', sans-serif;
+    width: 532px;
 }
 
 .check {
@@ -35,10 +36,12 @@
     align-items: center;
     padding: 25px 0;
     position: relative;
-    justify-content: center;
+    left: 50%;
+    transform: translateX(-25%);
 }
 
 .check label {
     margin-left: 30px;
     font-family: sans-serif;
+    font-size: 23px;
 }

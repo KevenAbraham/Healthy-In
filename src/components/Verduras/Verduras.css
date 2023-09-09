@@ -1,11 +1,12 @@
-.verduras {
-    height: 1400px;
-}
-
 .verduras .verdurasTitle {
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
     font-family: 'Amita';
+    margin-top: 40px;
+}
+
+.verduras .verdurasTitle span {
+    color: #0A6835;
 }
 
 .verdurasContent {
@@ -13,14 +14,16 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    justify-content: center;
     margin: auto;
 }
 
-.box {
-    width:358px;
-    height: 519px;
+.verduras .box {
+    width: 90%;
+    height: 629px;
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 32px;
 }
 
 .alface {
@@ -63,15 +66,11 @@
     text-align: center;
     position: absolute;
     bottom: 0;
-    padding: 0 40px;
+    height: 40%;
+
 }
 
 .boxTitle {
     padding: 20px 0;
-}
-
-.link {
-    text-decoration: underline;
-    cursor: pointer;
-    padding: 20px 0;
+    font-family: 'Amita', sans-serif;
 }

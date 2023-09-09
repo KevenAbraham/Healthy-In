@@ -18,7 +18,7 @@ export default () => {
                 <div className="box cebolinha">
                     <div className="boxText">
                         <h3 className="boxTitle">Cebolinha</h3>
-                        <p className="boxP">uma das hortaliças mais utilizadas e comercializadas em todo o mundo, as cebolinhas frescas dão um toque de sabor suave a diversos pratos.</p>
+                        <p className="boxP">Uma das hortaliças mais utilizadas e comercializadas em todo o mundo, as cebolinhas frescas dão um toque de sabor especial e suave a diversos pratos de nossas rotinas diárias.</p>
                         <p className="link">Descubra mais</p>
                     </div>
                 </div>

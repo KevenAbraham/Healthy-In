@@ -3,6 +3,7 @@ import './App.css';
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Conheca from './components/Conheca/Conheca';
+import Verduras from './components/Verduras/Verduras';
 
 export default () => {
 
@@ -29,6 +30,7 @@ export default () => {
       <Header white={whiteHeader} />
       <Home />
       <Conheca />
+      <Verduras />
     </div>
   );
 }

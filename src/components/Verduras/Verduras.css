@@ -1,0 +1,75 @@
+.verduras {
+    height: 1400px;
+}
+
+.verduras .verdurasTitle {
+    text-align: center;
+}
+
+.verdurasContent {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas igualmente espaçadas */
+    grid-gap: 20px;
+    justify-content: center;
+    margin: auto;
+}
+
+.box {
+    width:358px;
+    height: 519px;
+    position: relative;
+}
+
+.alface {
+    background: url(../../img/alface-box.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cebolinha {
+    background: url(../../img/cebolinha-box.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.espinafre {
+    background: url(../../img/espinafre-box.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.couve {
+    background: url(../../img/couve-box.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.rucula {
+    background: url(../../img/rucula-box.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.acelga {
+    background: url(../../img/acelga-box.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.boxText {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding: 0 40px;
+}
+
+.boxTitle {
+    padding: 20px 0;
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 20px 0;
+}

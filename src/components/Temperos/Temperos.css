@@ -1,15 +1,15 @@
-.verduras {
+.temperos {
     height: 1400px;
 }
 
-.verduras .verdurasTitle {
+.temperos .temperosTitle {
     text-align: center;
 }
 
-.verdurasContent {
+.temperosContent {
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); 
     grid-gap: 20px;
     justify-content: center;
     margin: auto;
@@ -21,38 +21,38 @@
     position: relative;
 }
 
-.alface {
-    background: url(../../img/alface-box.svg);
+.tomilho {
+    background: url(../../img/tomilho-box.svg);
     background-size: cover;
     background-position: center;
 }
 
-.cebolinha {
-    background: url(../../img/cebolinha-box.svg);
+.salsa {
+    background: url(../../img/salsa-box.svg);
     background-size: cover;
     background-position: center;
 }
 
-.espinafre {
-    background: url(../../img/espinafre-box.svg);
+.alecrim {
+    background: url(../../img/alecrim-box.svg);
     background-size: cover;
     background-position: center;
 }
 
-.couve {
-    background: url(../../img/couve-box.png);
+.manjericao {
+    background: url(../../img/manjericao-box.svg);
     background-size: cover;
     background-position: center;
 }
 
-.rucula {
-    background: url(../../img/rucula-box.svg);
+.oregano {
+    background: url(../../img/oregano-box.svg);
     background-size: cover;
     background-position: center;
 }
 
-.acelga {
-    background: url(../../img/acelga-box.svg);
+.hortela {
+    background: url(../../img/hortela-box.svg);
     background-size: cover;
     background-position: center;
 }

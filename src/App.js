@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Conheca from './components/Conheca/Conheca';
 import Verduras from './components/Verduras/Verduras';
+import Temperos from './components/Temperos/Temperos';
 
 export default () => {
 
@@ -31,6 +32,7 @@ export default () => {
       <Home />
       <Conheca />
       <Verduras />
+      <Temperos />
     </div>
   );
 }

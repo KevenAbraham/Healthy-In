@@ -1,0 +1,50 @@
+footer {
+    height: 500px;
+    background-color: #BEEBC2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer .logo {
+    position: relative;
+    width: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pageLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.pageLinks li {
+    margin: 0 50px;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.12s all ease;
+}
+
+.pageLinks li:hover {
+    transform: scale(1.07);
+    color: #555;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMedia li {
+    margin: 0 15px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.socialMedia li:hover {
+    transform: scale(1.07);
+}
+
+footer p {
+    text-align: center;
+}

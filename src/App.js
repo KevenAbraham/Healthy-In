@@ -6,6 +6,7 @@ import Conheca from './components/Conheca/Conheca';
 import Verduras from './components/Verduras/Verduras';
 import Temperos from './components/Temperos/Temperos';
 import AboveFooter from "./components/AboveFooter/AboveFooter";
+import Footer from "./components/Footer/Footer";
 
 export default () => {
 
@@ -35,6 +36,7 @@ export default () => {
       <Verduras />
       <Temperos />
       <AboveFooter />
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 .aboveFooter {
+    position: relative;
     height: 290px;
     width: 100%;
     background: url(../../img/junteSeBackground.svg);
@@ -7,8 +8,29 @@
     text-align: center;
 }
 
+.aboveFooterContent {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .aboveFooter h3 {
     width: 500px;
     margin: auto;
 }
 
+.aboveFooter button {
+    margin-top: 32px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #33794F, #88B899);
+    box-shadow: -2px 3px 6px rgba(0,0,0,0.25);
+    transition: all ease .25s;
+}
+
+.aboveFooter button:hover {
+    transform: scale(1.04);
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.25);
+}

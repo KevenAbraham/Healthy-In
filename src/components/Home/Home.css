@@ -54,3 +54,29 @@
     transform: scale(1.04);
     box-shadow: -5px 5px 10px rgba(0,0,0,0.25);
 }
+
+/* TABLET - 768px */ 
+@media screen and (max-width: 768px) {
+    .home {
+        height: 60vh;
+    }
+
+    .home .text span {
+        margin-left: 0;
+    }
+    
+    .home .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: auto;
+        text-align: center;
+    }
+
+    .bgHome {
+        display: none;
+    }
+}

@@ -56,7 +56,7 @@
 }
 
 /* TABLET - 768px */ 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .home {
         height: 60vh;
     }
@@ -79,4 +79,29 @@
     .bgHome {
         display: none;
     }
+}
+
+/* 428px - iPhone 12 PRO Max */
+@media screen and (max-width: 428px) {
+    .home {
+        height: 60vh;
+    }
+
+    .home .text span {
+        margin-left: 0;
+    }
+
+    .home .text {
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 90%;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    .bgHome {
+        display: none;
+    }
+
 }

@@ -23,11 +23,16 @@ footer .logo {
     list-style: none;
     cursor: pointer;
     transition: 0.12s all ease;
+    font-size: 28px;
 }
 
 .pageLinks li:hover {
     transform: scale(1.07);
     color: #555;
+}
+
+.linha {
+    margin-top: 92px;
 }
 
 .socialMedia {
@@ -47,4 +52,7 @@ footer .logo {
 
 footer p {
     text-align: center;
+    font-size: 18px;
+    color: #424242;
+    margin-top: 72px;
 }

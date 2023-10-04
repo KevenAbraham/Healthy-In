@@ -45,3 +45,24 @@
     font-family: sans-serif;
     font-size: 23px;
 }
+
+/* Tablet */ 
+@media screen and (max-width: 768px) {
+    .conheca .images {
+        display: none;
+    }
+
+    .conhecaContainer {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .content {
+        width: 100%;
+    }
+    
+    .content p {
+        margin: 40px auto;
+    }
+}

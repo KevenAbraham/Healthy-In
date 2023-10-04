@@ -56,7 +56,7 @@
 }
 
 /* TABLET - 768px */ 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .home {
         height: 70vh;
     }

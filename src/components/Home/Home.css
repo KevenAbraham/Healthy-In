@@ -58,7 +58,7 @@
 /* TABLET - 768px */ 
 @media screen and (min-width: 768px) {
     .home {
-        height: 60vh;
+        height: 70vh;
     }
 
     .home .text span {
@@ -83,10 +83,6 @@
 
 /* 428px - iPhone 12 PRO Max */
 @media screen and (max-width: 428px) {
-    .home {
-        height: 60vh;
-    }
-
     .home .text span {
         margin-left: 0;
     }

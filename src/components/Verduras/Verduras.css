@@ -109,4 +109,8 @@
         height: 130px;
     }
 
+    .link span {
+        color: #000;
+    }
+
 }

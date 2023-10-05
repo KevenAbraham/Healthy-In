@@ -56,3 +56,16 @@
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (max-width: 768px) {
+    .temperos .temperosTitle {
+        font-size: 38px;
+    }
+    
+    .temperosContent {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        grid-gap: 0px;
+    }
+
+}

@@ -26,7 +26,7 @@ export default () => {
                 <div className="box espinafre">
                     <div className="boxText">
                         <h3 className="boxTitle">Espinafre</h3>
-                        <p className="boxP">O espinafre é uma verdura caracterizada por suas folhas verdes escuras e é rico em nutrientes, sendo uma excelente fonte de vitaminas e minerais essenciais, como as vitaminas K, A, C, ácido fólico, ferro e cálcio.</p>
+                        <p className="boxP">O espinafre é uma verdura caracterizada por suas folhas verdes escuras e é rico em nutrientes, sendo uma excelente fonte de vitaminas e minerais essenciais.</p>
                         <p className="link"><span>Descubra mais</span></p>
                     </div>
                 </div>

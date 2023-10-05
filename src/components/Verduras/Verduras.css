@@ -67,12 +67,31 @@
     position: absolute;
     bottom: 0;
     height: 40%;
-
 }
 
 .boxTitle {
-    padding: 20px 0;
+    font-size: 32px;
     font-family: 'Amita', sans-serif;
+}
+
+.boxP {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.link span {
+    font-size: 20px;
+    cursor: pointer;
+    color: #6e6e6e;
+    transition: 0.2s ease all;
+}
+
+.link span:hover {
+    color: #000;
+    transition: 0.2s ease all;
 }
 
 @media screen and (max-width: 768px) {
@@ -86,5 +105,4 @@
         grid-gap: 0px;
     }
 
-    
 }

@@ -74,3 +74,17 @@
     padding: 20px 0;
     font-family: 'Amita', sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+    .verduras .verdurasTitle {
+        font-size: 38px;
+    }
+    
+    .verdurasContent {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        grid-gap: 0px;
+    }
+
+    
+}

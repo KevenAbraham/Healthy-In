@@ -1,5 +1,6 @@
 .temperos {
     margin-bottom: 30px;  
+    overflow-x: hidden;
 }
 
 .temperos .temperosTitle {

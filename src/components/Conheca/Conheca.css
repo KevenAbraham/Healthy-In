@@ -2,6 +2,7 @@
     height: 950px;
     background: url('../../img/fundo-conheca.svg');
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .conhecaTitle {

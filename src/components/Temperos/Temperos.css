@@ -71,3 +71,16 @@
         }
     }
 }
+
+@media screen and (max-width: 428px) {
+    .temperos .temperosTitle {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+    .temperosContent {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+    }
+}

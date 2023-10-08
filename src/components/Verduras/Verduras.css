@@ -94,23 +94,24 @@
     transition: 0.2s ease all;
 }
 
-@media screen and (max-width: 768px) {
-    .verduras .verdurasTitle {
-        font-size: 38px;
-    }
+@media screen and (max-width: 884px) {
+    @media screen and (min-width: 768px) {
+        .verduras .verdurasTitle {
+            font-size: 38px;
+        }
+        
+        .verdurasContent {
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+            grid-gap: 0px;
+        }
     
-    .verdurasContent {
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        grid-gap: 0px;
+        .boxP {
+            height: 130px;
+        }
+    
+        .link span {
+            color: #000;
+        }
     }
-
-    .boxP {
-        height: 130px;
-    }
-
-    .link span {
-        color: #000;
-    }
-
 }

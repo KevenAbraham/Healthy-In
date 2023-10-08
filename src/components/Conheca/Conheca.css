@@ -73,37 +73,49 @@
 /* iPhone 14 PRO MAX */
 @media screen and (max-width: 428px) {
     .conheca {
-        background: #eeeeff;
-        height: 70vh;
+        height: auto;
+        background: #E7F9EA;
     }
-    
+
     .conhecaTitle {
         font-size: 28px;
     }
-
+    
     .conhecaContainer {
+        margin-top: 20px;
         display: block;
-        width: 90%;
+        width: 100vw;
+    }
+
+    .conhecaContainer .content {
+        width: 90vw;
         margin: auto;
     }
 
     .content p {
-        font-size: 16px;
-        width: 100%;
+        font-size: 18px;
+        width: 90vw;
+        margin-bottom: 5px;
     }
 
     .check {
-        display: block;
-        margin-left: 60px;
+        padding: 20px 50px;
+        position: relative;
         left: 0;
         transform: translateX(0);
     }
 
-    .check img {
-        width: 30px;
+    .check:nth-child(5) {
+        padding-bottom: 40px;
+    }
+    
+    .check label {
+        margin-left: 30px;
+        font-family: sans-serif;
+        font-size: 16px;
     }
 
-    .check label {
-        font-size: 16px;
+    .images {
+        display: none;
     }
 }

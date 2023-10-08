@@ -47,23 +47,25 @@
 }
 
 /* Tablet */ 
-@media screen and (max-width: 768px) {
-    .conheca .images {
-        display: none;
-    }
-
-    .conhecaContainer {
-        display: block;
-        width: 90%;
-        margin: auto;
-    }
+@media screen and (max-width: 884px) {
+    @media screen and (max-width: 768px) {
+        .conheca .images {
+            display: none;
+        }
     
-    .content {
-        width: 100%;
-    }
-    
-    .content p {
-        margin: 40px auto;
+        .conhecaContainer {
+            display: block;
+            width: 90%;
+            margin: auto;
+        }
+        
+        .content {
+            width: 100%;
+        }
+        
+        .content p {
+            margin: 40px auto;
+        }
     }
 }
 

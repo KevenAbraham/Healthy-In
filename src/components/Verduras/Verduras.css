@@ -98,6 +98,7 @@
     transition: 0.2s ease all;
 }
 
+/* Reponsividade para Tablet */
 @media screen and (max-width: 884px) {
     @media screen and (min-width: 768px) {
         .verduras .verdurasTitle {
@@ -117,5 +118,36 @@
         .link span {
             color: #000;
         }
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .verduras .verdurasTitle {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .verdurasContent {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+    }
+
+    .box {
+        width: 80%;
+        height: 580px;
+        margin-top: 28px;
+    }
+
+    .boxText {
+        height: 45%;
+    }
+
+    .boxTitle {
+        font-size: 28px;
+    }    
+
+    .boxP {
+        margin-bottom: 20px;
     }
 }

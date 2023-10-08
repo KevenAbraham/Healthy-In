@@ -57,29 +57,30 @@ footer p {
     margin-top: 72px;
 }
 
-@media screen and (max-width: 768px) {
-    footer .logo {
-        position: relative;
-        width: 250px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+@media screen and (max-width: 884px) {
+    @media screen and (min-width: 768px) {
+        footer .logo {
+            position: relative;
+            width: 250px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        footer p {
+            padding-bottom: 20px;
+            margin-top: 0px;
+        }
     
-    footer p {
-        padding-bottom: 20px;
-        margin-top: 0px;
-    }
-
-    .pageLinks li {
-        margin: 0 20px;
-        list-style: none;
-        cursor: pointer;
-        transition: 0.12s all ease;
-        font-size: 20px;
-    }
-
-    .linha {
-        margin-top: 0px;
-    }
+        .pageLinks li {
+            margin: 0 20px;
+            list-style: none;
+            cursor: pointer;
+            transition: 0.12s all ease;
+            font-size: 20px;
+        }
     
+        .linha {
+            margin-top: 0px;
+        }    
+    }
 }

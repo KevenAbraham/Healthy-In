@@ -7,7 +7,7 @@ header  {
     height: 72px;
     background: transparent;
     transition: all ease 0.5s;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 header.white {
